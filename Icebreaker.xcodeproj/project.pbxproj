@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D29ACBB93335A8A750A87DA /* Pods_Icebreaker_IcebreakerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C14240ECB653CD39744F017 /* Pods_Icebreaker_IcebreakerUITests.framework */; };
+		5662AFD9CA72FFE802A80FDB /* Pods_Icebreaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDEFDA74F9F6066A3F461E8 /* Pods_Icebreaker.framework */; };
+		E20CA234260C2AE3007E32DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA233260C2AE3007E32DE /* AppDelegate.swift */; };
+		E20CA236260C2AE3007E32DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA235260C2AE3007E32DE /* SceneDelegate.swift */; };
+		E20CA238260C2AE3007E32DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA237260C2AE3007E32DE /* ContentView.swift */; };
+		E20CA23A260C2AE4007E32DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20CA239260C2AE4007E32DE /* Assets.xcassets */; };
+		E20CA23D260C2AE4007E32DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20CA23C260C2AE4007E32DE /* Preview Assets.xcassets */; };
+		E20CA240260C2AE4007E32DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CA23E260C2AE4007E32DE /* LaunchScreen.storyboard */; };
+		E20CA24B260C2AE4007E32DE /* IcebreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA24A260C2AE4007E32DE /* IcebreakerTests.swift */; };
+		E20CA256260C2AE4007E32DE /* IcebreakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA255260C2AE4007E32DE /* IcebreakerUITests.swift */; };
+		E20CA267260C384C007E32DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CA266260C384C007E32DE /* GoogleService-Info.plist */; };
+		E20CA282260C3C6F007E32DE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20CA281260C3C6F007E32DE /* Question.swift */; };
+		EEDE844570C40575D30D4B33 /* Pods_IcebreakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECA58911732D5B339B74FDB /* Pods_IcebreakerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E20CA247260C2AE4007E32DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20CA228260C2AE2007E32DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20CA22F260C2AE3007E32DE;
+			remoteInfo = Icebreaker;
+		};
+		E20CA252260C2AE4007E32DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E20CA228260C2AE2007E32DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E20CA22F260C2AE3007E32DE;
+			remoteInfo = Icebreaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04563333B12898A23D50D365 /* Pods-IcebreakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IcebreakerTests.release.xcconfig"; path = "Target Support Files/Pods-IcebreakerTests/Pods-IcebreakerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C14240ECB653CD39744F017 /* Pods_Icebreaker_IcebreakerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Icebreaker_IcebreakerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECA58911732D5B339B74FDB /* Pods_IcebreakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IcebreakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		269144ABF62B8BEB0EBCA293 /* Pods-Icebreaker-IcebreakerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Icebreaker-IcebreakerUITests.release.xcconfig"; path = "Target Support Files/Pods-Icebreaker-IcebreakerUITests/Pods-Icebreaker-IcebreakerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2738A0180B6AC1CB9FEA483C /* Pods-Icebreaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Icebreaker.debug.xcconfig"; path = "Target Support Files/Pods-Icebreaker/Pods-Icebreaker.debug.xcconfig"; sourceTree = "<group>"; };
+		3EDEFDA74F9F6066A3F461E8 /* Pods_Icebreaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Icebreaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		408BA4856EE4CEABCEF757C8 /* Pods-IcebreakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IcebreakerTests.debug.xcconfig"; path = "Target Support Files/Pods-IcebreakerTests/Pods-IcebreakerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		819BEF55E51F80BB7C91E44C /* Pods-Icebreaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Icebreaker.release.xcconfig"; path = "Target Support Files/Pods-Icebreaker/Pods-Icebreaker.release.xcconfig"; sourceTree = "<group>"; };
+		E20CA230260C2AE3007E32DE /* Icebreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Icebreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20CA233260C2AE3007E32DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E20CA235260C2AE3007E32DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E20CA237260C2AE3007E32DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E20CA239260C2AE4007E32DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E20CA23C260C2AE4007E32DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E20CA23F260C2AE4007E32DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E20CA241260C2AE4007E32DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20CA246260C2AE4007E32DE /* IcebreakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IcebreakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20CA24A260C2AE4007E32DE /* IcebreakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcebreakerTests.swift; sourceTree = "<group>"; };
+		E20CA24C260C2AE4007E32DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20CA251260C2AE4007E32DE /* IcebreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IcebreakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20CA255260C2AE4007E32DE /* IcebreakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcebreakerUITests.swift; sourceTree = "<group>"; };
+		E20CA257260C2AE4007E32DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20CA266260C384C007E32DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E20CA281260C3C6F007E32DE /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		EFE83450CFEB77B56A13D456 /* Pods-Icebreaker-IcebreakerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Icebreaker-IcebreakerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Icebreaker-IcebreakerUITests/Pods-Icebreaker-IcebreakerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20CA22D260C2AE3007E32DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5662AFD9CA72FFE802A80FDB /* Pods_Icebreaker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CA243260C2AE4007E32DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDE844570C40575D30D4B33 /* Pods_IcebreakerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CA24E260C2AE4007E32DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D29ACBB93335A8A750A87DA /* Pods_Icebreaker_IcebreakerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8281B0E09C0E9B6804DBAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDEFDA74F9F6066A3F461E8 /* Pods_Icebreaker.framework */,
+				1C14240ECB653CD39744F017 /* Pods_Icebreaker_IcebreakerUITests.framework */,
+				1ECA58911732D5B339B74FDB /* Pods_IcebreakerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EB7FD2C8B8D6D0D6FB86E7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2738A0180B6AC1CB9FEA483C /* Pods-Icebreaker.debug.xcconfig */,
+				819BEF55E51F80BB7C91E44C /* Pods-Icebreaker.release.xcconfig */,
+				EFE83450CFEB77B56A13D456 /* Pods-Icebreaker-IcebreakerUITests.debug.xcconfig */,
+				269144ABF62B8BEB0EBCA293 /* Pods-Icebreaker-IcebreakerUITests.release.xcconfig */,
+				408BA4856EE4CEABCEF757C8 /* Pods-IcebreakerTests.debug.xcconfig */,
+				04563333B12898A23D50D365 /* Pods-IcebreakerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E20CA227260C2AE2007E32DE = {
+			isa = PBXGroup;
+			children = (
+				E20CA232260C2AE3007E32DE /* Icebreaker */,
+				E20CA249260C2AE4007E32DE /* IcebreakerTests */,
+				E20CA254260C2AE4007E32DE /* IcebreakerUITests */,
+				E20CA231260C2AE3007E32DE /* Products */,
+				9EB7FD2C8B8D6D0D6FB86E7A /* Pods */,
+				0A8281B0E09C0E9B6804DBAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E20CA231260C2AE3007E32DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20CA230260C2AE3007E32DE /* Icebreaker.app */,
+				E20CA246260C2AE4007E32DE /* IcebreakerTests.xctest */,
+				E20CA251260C2AE4007E32DE /* IcebreakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20CA232260C2AE3007E32DE /* Icebreaker */ = {
+			isa = PBXGroup;
+			children = (
+				E20CA233260C2AE3007E32DE /* AppDelegate.swift */,
+				E20CA235260C2AE3007E32DE /* SceneDelegate.swift */,
+				E20CA281260C3C6F007E32DE /* Question.swift */,
+				E20CA237260C2AE3007E32DE /* ContentView.swift */,
+				E20CA239260C2AE4007E32DE /* Assets.xcassets */,
+				E20CA23E260C2AE4007E32DE /* LaunchScreen.storyboard */,
+				E20CA241260C2AE4007E32DE /* Info.plist */,
+				E20CA266260C384C007E32DE /* GoogleService-Info.plist */,
+				E20CA23B260C2AE4007E32DE /* Preview Content */,
+			);
+			path = Icebreaker;
+			sourceTree = "<group>";
+		};
+		E20CA23B260C2AE4007E32DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E20CA23C260C2AE4007E32DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E20CA249260C2AE4007E32DE /* IcebreakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E20CA24A260C2AE4007E32DE /* IcebreakerTests.swift */,
+				E20CA24C260C2AE4007E32DE /* Info.plist */,
+			);
+			path = IcebreakerTests;
+			sourceTree = "<group>";
+		};
+		E20CA254260C2AE4007E32DE /* IcebreakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E20CA255260C2AE4007E32DE /* IcebreakerUITests.swift */,
+				E20CA257260C2AE4007E32DE /* Info.plist */,
+			);
+			path = IcebreakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20CA22F260C2AE3007E32DE /* Icebreaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20CA25A260C2AE4007E32DE /* Build configuration list for PBXNativeTarget "Icebreaker" */;
+			buildPhases = (
+				CBCE55D9BB6F3FE5D94A6C3A /* [CP] Check Pods Manifest.lock */,
+				E20CA22C260C2AE3007E32DE /* Sources */,
+				E20CA22D260C2AE3007E32DE /* Frameworks */,
+				E20CA22E260C2AE3007E32DE /* Resources */,
+				8C8D8D1839AC709EEF7E760D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Icebreaker;
+			productName = Icebreaker;
+			productReference = E20CA230260C2AE3007E32DE /* Icebreaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E20CA245260C2AE4007E32DE /* IcebreakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20CA25D260C2AE4007E32DE /* Build configuration list for PBXNativeTarget "IcebreakerTests" */;
+			buildPhases = (
+				142C1AB828A9C4C4EFAA1EE9 /* [CP] Check Pods Manifest.lock */,
+				E20CA242260C2AE4007E32DE /* Sources */,
+				E20CA243260C2AE4007E32DE /* Frameworks */,
+				E20CA244260C2AE4007E32DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20CA248260C2AE4007E32DE /* PBXTargetDependency */,
+			);
+			name = IcebreakerTests;
+			productName = IcebreakerTests;
+			productReference = E20CA246260C2AE4007E32DE /* IcebreakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E20CA250260C2AE4007E32DE /* IcebreakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20CA260260C2AE4007E32DE /* Build configuration list for PBXNativeTarget "IcebreakerUITests" */;
+			buildPhases = (
+				1CC056DF2F3328FA38656881 /* [CP] Check Pods Manifest.lock */,
+				E20CA24D260C2AE4007E32DE /* Sources */,
+				E20CA24E260C2AE4007E32DE /* Frameworks */,
+				E20CA24F260C2AE4007E32DE /* Resources */,
+				0BF23BF1114FFD4B71BFE440 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E20CA253260C2AE4007E32DE /* PBXTargetDependency */,
+			);
+			name = IcebreakerUITests;
+			productName = IcebreakerUITests;
+			productReference = E20CA251260C2AE4007E32DE /* IcebreakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20CA228260C2AE2007E32DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E20CA22F260C2AE3007E32DE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E20CA245260C2AE4007E32DE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E20CA22F260C2AE3007E32DE;
+					};
+					E20CA250260C2AE4007E32DE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E20CA22F260C2AE3007E32DE;
+					};
+				};
+			};
+			buildConfigurationList = E20CA22B260C2AE2007E32DE /* Build configuration list for PBXProject "Icebreaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20CA227260C2AE2007E32DE;
+			productRefGroup = E20CA231260C2AE3007E32DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20CA22F260C2AE3007E32DE /* Icebreaker */,
+				E20CA245260C2AE4007E32DE /* IcebreakerTests */,
+				E20CA250260C2AE4007E32DE /* IcebreakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E20CA22E260C2AE3007E32DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CA240260C2AE4007E32DE /* LaunchScreen.storyboard in Resources */,
+				E20CA267260C384C007E32DE /* GoogleService-Info.plist in Resources */,
+				E20CA23D260C2AE4007E32DE /* Preview Assets.xcassets in Resources */,
+				E20CA23A260C2AE4007E32DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CA244260C2AE4007E32DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CA24F260C2AE4007E32DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF23BF1114FFD4B71BFE440 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Icebreaker-IcebreakerUITests/Pods-Icebreaker-IcebreakerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Icebreaker-IcebreakerUITests/Pods-Icebreaker-IcebreakerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Icebreaker-IcebreakerUITests/Pods-Icebreaker-IcebreakerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		142C1AB828A9C4C4EFAA1EE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IcebreakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CC056DF2F3328FA38656881 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Icebreaker-IcebreakerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8D8D1839AC709EEF7E760D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Icebreaker/Pods-Icebreaker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Icebreaker/Pods-Icebreaker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Icebreaker/Pods-Icebreaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCE55D9BB6F3FE5D94A6C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Icebreaker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20CA22C260C2AE3007E32DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CA234260C2AE3007E32DE /* AppDelegate.swift in Sources */,
+				E20CA282260C3C6F007E32DE /* Question.swift in Sources */,
+				E20CA236260C2AE3007E32DE /* SceneDelegate.swift in Sources */,
+				E20CA238260C2AE3007E32DE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CA242260C2AE4007E32DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CA24B260C2AE4007E32DE /* IcebreakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CA24D260C2AE4007E32DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CA256260C2AE4007E32DE /* IcebreakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E20CA248260C2AE4007E32DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20CA22F260C2AE3007E32DE /* Icebreaker */;
+			targetProxy = E20CA247260C2AE4007E32DE /* PBXContainerItemProxy */;
+		};
+		E20CA253260C2AE4007E32DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E20CA22F260C2AE3007E32DE /* Icebreaker */;
+			targetProxy = E20CA252260C2AE4007E32DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E20CA23E260C2AE4007E32DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E20CA23F260C2AE4007E32DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E20CA258260C2AE4007E32DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E20CA259260C2AE4007E32DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E20CA25B260C2AE4007E32DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2738A0180B6AC1CB9FEA483C /* Pods-Icebreaker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Icebreaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Icebreaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kuntong-Xu.Icebreaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E20CA25C260C2AE4007E32DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819BEF55E51F80BB7C91E44C /* Pods-Icebreaker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Icebreaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Icebreaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kuntong-Xu.Icebreaker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E20CA25E260C2AE4007E32DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408BA4856EE4CEABCEF757C8 /* Pods-IcebreakerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IcebreakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kuntong-Xu.IcebreakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Icebreaker.app/Icebreaker";
+			};
+			name = Debug;
+		};
+		E20CA25F260C2AE4007E32DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04563333B12898A23D50D365 /* Pods-IcebreakerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IcebreakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kuntong-Xu.IcebreakerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Icebreaker.app/Icebreaker";
+			};
+			name = Release;
+		};
+		E20CA261260C2AE4007E32DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE83450CFEB77B56A13D456 /* Pods-Icebreaker-IcebreakerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IcebreakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kuntong-Xu.IcebreakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Icebreaker;
+			};
+			name = Debug;
+		};
+		E20CA262260C2AE4007E32DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269144ABF62B8BEB0EBCA293 /* Pods-Icebreaker-IcebreakerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IcebreakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kuntong-Xu.IcebreakerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Icebreaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20CA22B260C2AE2007E32DE /* Build configuration list for PBXProject "Icebreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20CA258260C2AE4007E32DE /* Debug */,
+				E20CA259260C2AE4007E32DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20CA25A260C2AE4007E32DE /* Build configuration list for PBXNativeTarget "Icebreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20CA25B260C2AE4007E32DE /* Debug */,
+				E20CA25C260C2AE4007E32DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20CA25D260C2AE4007E32DE /* Build configuration list for PBXNativeTarget "IcebreakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20CA25E260C2AE4007E32DE /* Debug */,
+				E20CA25F260C2AE4007E32DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20CA260260C2AE4007E32DE /* Build configuration list for PBXNativeTarget "IcebreakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20CA261260C2AE4007E32DE /* Debug */,
+				E20CA262260C2AE4007E32DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20CA228260C2AE2007E32DE /* Project object */;
+}
